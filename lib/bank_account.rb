@@ -18,10 +18,10 @@ class BankAccount
   end
 
   def valid?
-    if 
-      
+    if
+
     else
-      
+
     end
   end
 
