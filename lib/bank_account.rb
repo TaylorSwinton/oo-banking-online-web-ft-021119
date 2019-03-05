@@ -18,7 +18,11 @@ class BankAccount
   end
 
   def valid?
-
+    if 
+      
+    else
+      
+    end
   end
 
   def close_account
