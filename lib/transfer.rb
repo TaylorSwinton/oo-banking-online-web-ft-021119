@@ -6,7 +6,7 @@ class Transfer
 #Once completed it can be put into a reversed status.
 
   def initialize
-
+    
   end
 
 end
