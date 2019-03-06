@@ -27,10 +27,6 @@ class Transfer
     if @sender.balance < @amount || @sender.status == "closed"
       @status = "rejected"
       return "Transaction rejected. Please check your account balance."
-    elsif
-
-    else
-
     end
   end
 
