@@ -17,9 +17,9 @@ class Transfer
   def valid?
 
     if Transfer.sender.valid? == true && Transfer.receiver.valid? == true
-
+      true
     else
-
+      false
     end
 
   end
