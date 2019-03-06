@@ -24,7 +24,7 @@ class Transfer
 
   def execute_transaction
     if condition
-      
+
     elsif
 
     else
