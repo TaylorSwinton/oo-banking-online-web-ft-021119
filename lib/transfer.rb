@@ -37,6 +37,12 @@ class Transfer
   end
 
   def reverse_transfer
+    if @status == "complete"
+      @sender.deposit(@amount)
+      @receiver.deposit(@mount * -1)
+    else
+      
+    end
 
   end
 
