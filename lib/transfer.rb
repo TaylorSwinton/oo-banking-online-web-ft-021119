@@ -41,7 +41,7 @@ class Transfer
       @sender.deposit(@amount)
       @receiver.deposit(@mount * -1)
     else
-
+      return "Can not transfer amount"
     end
 
   end
