@@ -40,6 +40,7 @@ class Transfer
     if @status == "complete"
       @sender.deposit(@amount)
       @receiver.deposit(@mount * -1)
+      @status = "reversed"
     else
       return "Can not transfer amount"
     end
