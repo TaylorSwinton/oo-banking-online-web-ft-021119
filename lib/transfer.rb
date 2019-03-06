@@ -28,7 +28,7 @@ class Transfer
       @status = "rejected"
       return "Transaction rejected. Please check your account balance."
     else
-
+      @sender.deposit(amount * -1)
     end
   end
 
