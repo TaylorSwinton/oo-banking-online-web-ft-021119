@@ -23,7 +23,13 @@ class Transfer
   end
 
   def execute_transaction
+    if condition
+      
+    elsif
 
+    else
+
+    end
   end
 
 end
