@@ -2,7 +2,8 @@ class Transfer
 
 #WHAT TRANSFER SHOULD BE ALLOWED TO DO
 #Transfer should start in a pending status
-#Then go to complete state OR rejected status if the accounts aren't valid OR no money
+#Then go to complete state OR rejected status if the accounts aren't valid
+  #validty requires balance > 0, and status = open
 #Once completed it can be put into a reversed status.
 
   attr_accessor :sender, :receiver, :amount, :status
@@ -23,8 +24,8 @@ class Transfer
   end
 
   def execute_transaction
-    if condition
-
+    if @sender.balance < @amount
+      
     elsif
 
     else
